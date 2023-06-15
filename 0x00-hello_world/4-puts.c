@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - 4-puts.c
- * desription write a c program that prints exactly 
+ * desription - write a c program that prints exactly 
  *
  * Return: Always 0 (Success)
  */
