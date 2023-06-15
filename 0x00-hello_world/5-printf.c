@@ -11,5 +11,4 @@ int main(void){
 	printf("with proper grammar, but the outcome is a piece of art,\n");
 	
 	return (0);
-} 
-gcc -Wall your_program.c -o your_program
+}
