@@ -1,0 +1,2 @@
+#!/bon/bash
+gcc -S -masm=intel $CFILE 
