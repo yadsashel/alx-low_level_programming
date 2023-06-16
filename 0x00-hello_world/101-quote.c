@@ -1,13 +1,13 @@
 #include <unistd.h>
 
 /**
- * main - Write a C program that prints exactly and that piece of art is useful - Dora Korpar, 2015-10-19, followed by a new line, to the standard error
- *
- * Return: Always 0 (Success)
- */
-int main() {
-    const char *message = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-    write(2, message, 51);
-    return 1;
+  * main - Prints a text
+  *
+  * Return: Always 1 (Success)
+  */
+int main(void)
+{
+	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
+	return (1);
 }
 
