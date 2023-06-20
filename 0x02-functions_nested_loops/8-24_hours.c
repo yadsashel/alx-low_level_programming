@@ -19,5 +19,7 @@ int print_last_digit(int n)
 
 	_putchar(a + '0');
 
+	jack_bauer();
+
 	return (a);
 }
