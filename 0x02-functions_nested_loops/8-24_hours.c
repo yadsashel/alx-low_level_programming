@@ -7,6 +7,7 @@
  */
 int print_last_digit(int n)
 {
+	jack_bauer();
 	int a;
 
 	if (n < 0)
@@ -18,8 +19,6 @@ int print_last_digit(int n)
 		a = -a;
 
 	_putchar(a + '0');
-
-	jack_bauer();
 
 	return (a);
 }
