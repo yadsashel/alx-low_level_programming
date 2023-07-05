@@ -1,10 +1,18 @@
-void _puts_recursion(char *s);
-void _print_rev_recursion(char *s);
-int _strlen_recursion(char *s);
-int factorial(int n);
-int _pow_recursion(int x, int y);
-int _sqrt_recursion(int n);
-int is_prime_number(int n);
-int is_palindrome(char *s);
-int wildcmp(char *s1, char *s2);
-int _putchar.c(char c);
+#include"main.h"
+#include <stdio.h>
+
+int wildcmp(char *, char *);
+
+/**
+ * main - check the code for Holberton School students.
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+	int r;
+
+	r = wildcmp("school.c", "*.c");
+	printf("%d\n", r);
+	return (0);
+}
